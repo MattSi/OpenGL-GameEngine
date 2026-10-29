@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{6ebf1fe4-bef4-4a87-a2c6-15b03394ffbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{e6706f1e-274d-4c32-9c33-7ca1617ce231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Models">
+      <UniqueIdentifier>{6be684a3-14b7-43e8-925f-fc24f22fd5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{6a0fe191-1d5e-488e-9207-4da4cc0f56fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{9a10b691-c072-413f-b314-64f09027986b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{2c830517-ba51-4934-b683-2549d4229ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{eb8ad25b-ada6-495a-9331-c63650bb8472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{d1b0170d-e9e3-4786-9bf2-ad5e56528650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IMGui">
+      <UniqueIdentifier>{e52c9694-b407-4e5a-8b9c-eeeb4107700f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PostProcess">
+      <UniqueIdentifier>{42143bd1-d527-4bb0-8caf-3c95f80834ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PostProcess">
+      <UniqueIdentifier>{8d009729-d234-47a8-8a59-1903797c8ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{4b209da1-3f0e-498a-804d-282c87a3a9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{c814b76a-479f-4a58-8605-4b434c10ea64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{bae981e7-42e5-438f-bcb6-135369bacd11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveMeshes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LightComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRenderer.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Register.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCore.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineTime.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeClass.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTweenScript.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui.cpp">
+      <Filter>Source Files\IMGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_draw.cpp">
+      <Filter>Source Files\IMGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\IMGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\backends\imgui_impl_sdl2.cpp">
+      <Filter>Source Files\IMGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_tables.cpp">
+      <Filter>Source Files\IMGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\IMGui</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessPass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="GrayscalePass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffer.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigLoader.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InversionPass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelBlurPass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelSharpenPass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelEdgepass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="PostFogPass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthOfFieldPass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalDoFPass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthBasedColorGradingPass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolWindow.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightBallController.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AirCraftController.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterScenePass.cpp">
+      <Filter>Source Files\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLightComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbitCameraComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbitRotationComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancedModelRenderer.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCamera.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetMoveController.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGenerator.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ_Loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveMeshes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LightComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRenderer.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCore.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineTime.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardTypes.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeClass.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTweenScript.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessPass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="GrayscalePass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelBlurPass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelSharpenPass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelEdgepass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="PostFogPass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthOfFieldPass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalDoFPass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthBasedColorGradingPass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="InversionPass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolWindow.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightBallController.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AirCraftController.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterScenePass.h">
+      <Filter>Header Files\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLightComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbitCameraComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbitRotationComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancedModelRenderer.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowCamera.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetMoveController.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGenerator.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameSettings.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="Scene01.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="Scene02.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="Assets\Shaders\cube.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\cube.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\model.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\model.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Tacos.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="opencv.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="apple.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

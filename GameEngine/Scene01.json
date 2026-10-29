@@ -1,0 +1,391 @@
+{
+  "AssetManager": [],
+  "SceneManager": {
+    "scenes": [
+      {
+        "name": "Scene #1",
+        "id": 1,
+        "Entities": [
+          {
+            "name": "Spinning Cube",
+            "id": 2,
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 2,
+                "position": { "x": 0.0, "y": -20.0, "z": -1500.0 },
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 200.0, "y": 0.1, "z": -1500.0 }
+              },
+              {
+                "componentType": "MeshRenderer",
+                "id": 4,
+                "primitive": "Cube",   
+                "material": {
+                  "tint":  { "r": 0.8, "g": 0.7, "b": 1.0 },
+                  "emissiveStrength": 0.5,
+                  "shininess": 32.0,
+                  "specularStrength": 0.5,
+                  "diffuseTexture":  "Assets/Textures/container2.png",
+                  "specularTexture": "Assets/Textures/container2_specular.png"
+
+                }
+              }
+              
+            ]
+          },
+          {
+            "name": "Spinning Cube2",
+            "id": 2,
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 2,
+                "position": { "x": 3.0, "y": 3.0, "z": -150.0 },
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 0.2, "y": 0.2, "z": 0.2 }
+              },
+              {
+                "componentType": "MeshRenderer",
+                "id": 4,
+                "primitive": "Cube",   
+                "material": {
+                  "tint":  { "r": 0.2, "g": 0.4, "b": 1.0 },
+                  "emissiveStrength": 0.5,
+                  "shininess": 32.0,
+                  "specularStrength": 0.5
+                }
+              }
+            ]
+          },
+        {
+            "name": "Spinning Cube3",
+            "id": 2,
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 2,
+                "position": { "x": 3.0, "y": 3.0, "z": -150.0 },
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 0.2, "y": 0.2, "z": 0.2 }
+              },
+              {
+                "componentType": "MeshRenderer",
+                "id": 4,
+                "primitive": "Cube",   
+                "material": {
+                  "tint":  { "r": 0.8, "g": 0.7, "b": 1.0 },
+                  "emissiveStrength": 0.5,
+                  "shininess": 32.0,
+                  "specularStrength": 0.5
+                }
+              }
+            ]
+          },
+          {
+            "name": "Sun Light",
+            "id": 10,
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 11,
+                "position": { "x": 0.0, "y": 10.0, "z": 0.0 },
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 1.0, "y": 1.0, "z": 1.0 }
+              },
+              {
+                "componentType": "LightComponent",
+                "id": 12,
+                "lightType": "Directional",
+                "color":     { "r": 1.0, "g": 0.98, "b": 0.9 },
+                "intensity": 1.0,
+                "direction": { "x": -0.2, "y": -1.0, "z": -0.3 },
+                "emissiveStrength": 0.0
+              }
+            ]
+          },
+          {
+            "name": "White Point Light",
+            "id": 13,
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 14,
+                "position": { "x": 2.5, "y": 2.0, "z": 2.0 },
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+              },
+              {
+                "componentType": "LightComponent",
+                "id": 15,
+                "lightType": "Point",
+                "color":     { "r": 1.0, "g": 1.0, "b": 1.0 },
+                "intensity": 3.0,
+                "range":     100.0,
+                "attenuation": {
+                  "constant": 1.0,
+                  "linear":  0.09,
+                  "quadratic": 0.032
+                },
+                "emissiveStrength": 0.0
+              },
+               {
+                "componentType": "MeshRenderer",
+                "id": 4,
+                "primitive": "Sphere",   
+                "material": {
+                  "tint":  { "r": 1.0, "g": 1.0, "b": 1.0 },
+                  "emissiveStrength": 2.5,
+                  "shininess": 8.0,
+                  "specularStrength": 0.0
+                }
+              },
+               {
+                 "componentType": "LightBallController",
+                "id": 4
+               }
+            ]
+          },
+          {
+            "name": "AreaCraft Model",
+            "id": 16,
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 17,
+                "position": { "x": -20.0, "y": -5.0, "z": -200.0 },
+                "rotation": { "x": 90.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 8.0, "y": 8.0, "z": 8.0 }
+              },
+              {
+                "componentType": "ModelRenderer",
+                "id": 18,
+                "modelPath": "Assets/Models/Kenney/craft_speederA.obj",
+                "color": { "r": 1.0, "g": 1.0, "b": 1.0 },
+                "autoRotate": true,
+                "rotationSpeed": 30.0,
+                "emissiveStrength": 0.5
+              },
+              {
+                "componentType": "MoveLightComponent",
+                "id": 18
+              },
+              {
+                "componentType": "AirCraftController",
+                "id": 19
+              },
+              {
+                "componentType": "OrbitRotationComponent",
+                "id": 20
+              }
+            ]
+          },
+          {
+            "name": "BigFish",
+            "id": 16,
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 17,
+                "position": { "x": -20.0, "y": -5.0, "z": -10.0 },
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 45.0, "y": 45.0, "z": 45.0 }
+              },
+              {
+                "componentType": "ModelRenderer",
+                "id": 18,
+                "modelPath": "Assets/Models/Kenney/fish-large.obj",
+                "color": { "r": 1.0, "g": 1.0, "b": 1.0 },
+                "autoRotate": true,
+                "rotationSpeed": 30.0,
+                "emissiveStrength": 0.5
+              }
+            ]
+          },
+          {
+             "name": "BigFishInstanced",
+              "id": 20,
+              "Components": [
+                {
+                  "componentType": "Transform",
+                  "id": 21,
+                  "position": { "x": 0.0, "y": -5.0, "z": -50.0 },
+                  "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                  "scale":    { "x": 45.0, "y": 45.0, "z": 45.0 }
+                },
+                {
+                  "componentType": "InstancedModelRenderer",
+                  "id": 22,
+                  "modelPath": "Assets/Models/Kenney/fish-large.obj",
+                  "instanceCount": 200,
+                  "instancesPerRow": 10,
+                  "instanceSpacing": 0.9,
+                  "randomMin": { "x": -5.0, "y": -0.045, "z": 10.0 },
+                  "randomMax": { "x": 5.0, "y":  0.045, "z": -100.0 },
+                  "randomRotation": true,
+                  "randomScale": true,
+                  "color": { "r": 1.0, "g": 1.0, "b": 1.0 },
+                  "emissiveStrength": 0.5
+                }
+              ]
+          },
+          {
+            "name": "Big Ball",
+            "id": 15,
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 14,
+                "position": { "x": 17.5, "y": 2.0, "z": 2.0 },
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+              },
+              
+               {
+                "componentType": "MeshRenderer",
+                "id": 4,
+                "primitive": "Sphere",   
+                "material": {
+                  "tint":  { "r": 0.8, "g": 0.7, "b": 1.0 },
+                  "emissiveStrength": 0.5,
+                  "shininess": 32.0,
+                  "specularStrength": 0.5,
+                  "diffuseTexture":  "Assets/Textures/container2.png",
+                  "specularTexture": "Assets/Textures/container2_specular.png"
+
+                }
+              }           
+            ]
+          },
+         {
+            "name": "E45 Aircraft Model",
+            "id": 16,
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 17,
+                "position": { "x": -2.0, "y": 3.0, "z": -10.0 },
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 1.0, "y": 1.0, "z": 1.0 }
+              },
+              {
+                "componentType": "ModelRenderer",
+                "id": 18,
+                "modelPath": "Assets/Models/E45Aircraft_obj.obj",
+                "fallbackModelPath": "Assets/Models/Kenney/craft_racer.obj",
+                "fallbackScale": { "x": 3.0, "y": 3.0, "z": 3.0 },
+                "color": { "r": 1.0, "g": 1.0, "b": 1.0 },
+                "autoRotate": true,
+                "rotationSpeed": 30.0,
+                "emissiveStrength": 0.5
+              }, 
+              {
+              "componentType": "TargetMoveController",
+              "id": 19,
+              "moveSpeed": 8.0,
+              "shiftMultiplier": 2.0,
+              "useCameraSpace": true
+            }
+            ]
+          },
+          {
+            "name": "Mutant Model",
+            "id": 30,
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 31,
+                "position": { "x": 0.0, "y": -15.0, "z": -60.0 },
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 0.25, "y": 0.25, "z": 0.25 }
+              },
+              {
+                "componentType": "ModelRenderer",
+                "id": 32,
+                "modelPath": "Assets/Models/Mutant.obj",
+                "color": { "r": 1.0, "g": 1.0, "b": 1.0 },
+                "emissiveStrength": 0.15
+              }
+            ]
+          },
+           {
+            "name": "Main Camera",
+            "id": 3,
+            "Components": [
+              {
+                "componentType": "Transform",
+                "id": 5,
+                "position": { "x": 0.0, "y": 1.5, "z": 25.0 },
+                "rotation": { "x": 0.0, "y": 90.0, "z": 0.0 },
+                "scale": { "x": 1.0, "y": 1.0, "z": 1.0 }
+              },
+              {
+                "componentType": "CameraComponent",
+                "id": 3,
+                "fov": 60.0,
+                "near": 0.1,
+                "far": 200.0,
+                "mainCamera": true
+              },
+              {
+                "id": 4,
+                "componentType": "OrbitCameraComponent"
+              },
+              {
+                "componentType": "FollowCamera",
+                "id": 303,
+                "targetEntityName": "E45 Aircraft Model",
+                "offset": { "x": 2.0, "y": 4.0, "z": 6.0 },
+                "lerpSpeed": 5.0
+              }
+            ]
+          },
+           {
+            "name": "EnemyGenerator",
+            "id": 100,
+            "Components": [
+              {
+                "componentType": "EnemyGenerator",
+                "id": 101,
+                "EntityName": "AreaCraft Model"
+              }
+            ]
+          },
+          {
+            "name": "Skybox",
+            "id": 100,
+            "Components": [
+              {
+                "componentType": "SkyboxComponent",
+                "id": 101,
+                "cubemap": {
+                  "right":  "Assets/Textures/skybox/right.png",
+                  "left":   "Assets/Textures/skybox/left.png",
+                  "top":    "Assets/Textures/skybox/top.png",
+                  "bottom": "Assets/Textures/skybox/bottom.png",
+                  "front":  "Assets/Textures/skybox/front.png",
+                  "back":   "Assets/Textures/skybox/back.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

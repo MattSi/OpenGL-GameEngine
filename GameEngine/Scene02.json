@@ -1,0 +1,45 @@
+{
+  "AssetManager": [],
+  "SceneManager": {
+    "scenes": [
+      {
+        "name": "Scene #2",
+        "id": 1,
+        "Entities": [
+          {
+            "name": "Entity 02",
+            "id": 1,
+            "position": {
+              "x": 440,
+              "y": 260
+            },
+            "Components": [
+              {
+                "componentType": "Sprite",
+                "id": 1,
+                "spriteName": "opencv.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Entity 04",
+            "id": 2,
+            "position": {
+              "x": 100,
+              "y": 200
+            },
+            "Components": [
+              {
+                "componentType": "Sprite",
+                "id": 1,
+                "spriteName": "apple.jpg"
+              }
+            ]
+          }
+        ]
+      }
+
+ 
+    ]
+  }
+}
