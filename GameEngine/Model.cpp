@@ -204,6 +204,12 @@ void Model::Draw() const
 
 bool Model::LoadFromASE(const std::string& path, class Shader* defaultShader)
 {
+    // ASEReader does not handle a missing file (it would throw on an empty material list).
+    if (!std::filesystem::exists(path)) {
+        std::cerr << "WARNING: Failed to load ASE file '" << path << "', skipping.\n";
+        return false;
+    }
+
     ASEReader ase;
     ase.ParseASEFile(path.c_str());
 

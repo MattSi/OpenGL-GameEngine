@@ -516,8 +516,10 @@ void RenderSystem::DrawDebugHUD()
 void RenderSystem::DrawToolWindow()
 {
 	Entity* selected = nullptr;
-	ImGui::SetNextWindowSize(ImVec2(260, 160), ImGuiCond_FirstUseEver);
-	ImGui::SetNextWindowPos(ImVec2(20, 80), ImGuiCond_FirstUseEver);
+	// Default layout (first run / no imgui.ini): one column on the left,
+	// Debug HUD at the top, then Tool Window, then Post Process.
+	ImGui::SetNextWindowSize(ImVec2(300, 320), ImGuiCond_FirstUseEver);
+	ImGui::SetNextWindowPos(ImVec2(10, 250), ImGuiCond_FirstUseEver);
 
 	ImGui::Begin("Tool Window");
 	ImGuiIO& io = ImGui::GetIO();

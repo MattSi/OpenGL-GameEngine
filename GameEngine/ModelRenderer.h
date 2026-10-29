@@ -48,6 +48,8 @@ public:
         std::string fallbackModelPath;
         bool hasFallbackScale = false;
         glm::vec3 fallbackScale = glm::vec3(1.0f);
+        bool hasFallbackRotation = false;
+        glm::vec3 fallbackRotation = glm::vec3(0.0f);   // degrees, same as Transform
         bool ownModel = false;
 		
         float overrideEmission = 0.0f;

@@ -49,6 +49,15 @@ void ModelRenderer::Load(json::JSON& data)
 			static_cast<float>(s.at("z").ToFloat()));
 		hasFallbackScale = true;
 	}
+	if (data.hasKey("fallbackRotation"))
+	{
+		auto r = data.at("fallbackRotation");
+		fallbackRotation = glm::vec3(
+			static_cast<float>(r.at("x").ToFloat()),
+			static_cast<float>(r.at("y").ToFloat()),
+			static_cast<float>(r.at("z").ToFloat()));
+		hasFallbackRotation = true;
+	}
 
 	if (data.hasKey("color"))
 	{
@@ -89,6 +98,9 @@ void ModelRenderer::Initialize()
 		loaded = TryLoadModel(fallbackModelPath);
 		if (loaded && hasFallbackScale && owner) {
 			owner->SetScale(fallbackScale);
+		}
+		if (loaded && hasFallbackRotation && owner) {
+			owner->SetRotation(fallbackRotation);
 		}
 	}
 

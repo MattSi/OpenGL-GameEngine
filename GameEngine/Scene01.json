@@ -169,13 +169,16 @@
                 "componentType": "Transform",
                 "id": 17,
                 "position": { "x": -20.0, "y": -5.0, "z": -200.0 },
-                "rotation": { "x": 90.0, "y": 0.0, "z": 0.0 },
-                "scale":    { "x": 8.0, "y": 8.0, "z": 8.0 }
+                "rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+                "scale":    { "x": 0.01, "y": 0.01, "z": 0.02 }
               },
               {
                 "componentType": "ModelRenderer",
                 "id": 18,
-                "modelPath": "Assets/Models/Kenney/craft_speederA.obj",
+                "modelPath": "Assets/Models/Fighter.ase",
+                "fallbackModelPath": "Assets/Models/Kenney/craft_speederA.obj",
+                "fallbackScale": { "x": 8.0, "y": 8.0, "z": 8.0 },
+                "fallbackRotation": { "x": 90.0, "y": 0.0, "z": 0.0 },
                 "color": { "r": 1.0, "g": 1.0, "b": 1.0 },
                 "autoRotate": true,
                 "rotationSpeed": 30.0,

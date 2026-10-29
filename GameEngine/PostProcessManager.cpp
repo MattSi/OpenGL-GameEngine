@@ -218,6 +218,9 @@ void PostProcessManager::Apply(Texture* sceneColorTex, Texture* sceneDepthTex, b
 
 void PostProcessManager::OnImGui()
 {
+    // Default position: below the Tool Window (see RenderSystem::DrawToolWindow).
+    ImGui::SetNextWindowPos(ImVec2(10, 580), ImGuiCond_FirstUseEver);
+    ImGui::SetNextWindowSize(ImVec2(300, 0), ImGuiCond_FirstUseEver);
     if (ImGui::Begin("Post Process"))
     {
         for (auto& pass : passes)
