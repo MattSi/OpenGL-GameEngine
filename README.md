@@ -1,6 +1,6 @@
-# OpenGL Game Engine
+# OpenGL Rendering Engine
 
-A small 3D game engine written from scratch in C++17 and OpenGL 3.3 (core profile).
+A small 3D rendering engine written from scratch in C++17 and OpenGL 3.3 (core profile).
 It has a component-based scene system, a Blinn-Phong renderer with normal mapping,
 GPU-side procedural instancing, and a chain of ten screen-space post-processing effects.
 
